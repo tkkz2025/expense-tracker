@@ -1,6 +1,6 @@
 # expense-tracker
 
-Capstone code lab for Kaggle / Google's **5-Day Gen AI Intensive**. It's an
+Code lab for Kaggle / Google's **5-Day Gen AI Intensive**. It's an
 ambient expense-approval agent built on Google ADK 2.0, paired with a small
 dashboard for the human-in-the-loop (HITL) step.
 
