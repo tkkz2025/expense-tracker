@@ -1,0 +1,21 @@
+[project]
+name = "submission-frontend"
+version = "0.1.0"
+description = "Expense Manager Dashboard — HITL approval UI for the ADK expense agent"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115",
+    "uvicorn[standard]>=0.30",
+    "google-adk>=1.0",
+    "google-cloud-aiplatform>=1.90",
+    "httpx>=0.27",
+    "google-auth>=2.30",
+    "python-dotenv>=1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]

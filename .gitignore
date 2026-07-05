@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.adk/
+.google-agents-cli/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
